@@ -160,3 +160,11 @@ footer{ text-align:center; padding:2.2rem 1.5rem 2.6rem; color:var(--green-deep)
 .about-closing .motto{ font-family:'Playfair Display',serif; font-size:1.2rem; color:var(--gold-soft); margin-bottom:0.9rem; }
 .about-closing .invite{ font-family:'Dancing Script',cursive; font-size:1.35rem; display:flex; align-items:center; justify-content:center; gap:0.5rem; flex-wrap:wrap; }
 .about-closing .signoff{ margin-top:1rem; font-size:0.95rem; opacity:0.85; }
+
+.about-photo{ margin:1.4rem 0 1.8rem; }
+.about-photo img{
+  display:block; width:100%; max-width:520px; height:auto; margin:0 auto;
+  border-radius:10px; border:3px solid var(--gold-soft);
+  box-shadow:0 8px 22px rgba(27,58,43,0.18);
+}
+.about-photo figcaption{ text-align:center; margin-top:0.7rem; font-family:'Dancing Script',cursive; font-size:1.3rem; color:var(--green-deep); }
