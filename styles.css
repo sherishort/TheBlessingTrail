@@ -151,3 +151,12 @@ footer{ text-align:center; padding:2.2rem 1.5rem 2.6rem; color:var(--green-deep)
 .idea-share h3{ color:var(--gold-soft); font-size:1.1rem; margin-bottom:0.5rem; }
 .idea-share p{ font-size:0.95rem; }
 .idea-share a{ color:var(--gold-soft); }
+
+.about .callout{
+  font-family:'Playfair Display',serif; font-size:1.35rem; font-weight:600; font-style:italic;
+  color:var(--green-deep); border-left:3px solid var(--gold); padding:0.2rem 0 0.2rem 1rem; margin:1.6rem 0;
+}
+.about-closing{ margin-top:2.4rem; background:var(--green-deep); color:#fff; border-radius:8px; padding:2rem 1.6rem; text-align:center; }
+.about-closing .motto{ font-family:'Playfair Display',serif; font-size:1.2rem; color:var(--gold-soft); margin-bottom:0.9rem; }
+.about-closing .invite{ font-family:'Dancing Script',cursive; font-size:1.35rem; display:flex; align-items:center; justify-content:center; gap:0.5rem; flex-wrap:wrap; }
+.about-closing .signoff{ margin-top:1rem; font-size:0.95rem; opacity:0.85; }
