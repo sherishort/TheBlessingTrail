@@ -135,6 +135,7 @@ nav a[aria-current="page"]{ color:var(--gold-soft); border-color:var(--gold-soft
 .explore a:hover, .explore a:focus-visible{ border-color:var(--gold); background:#fffdf5; }
 
 footer{ text-align:center; padding:2.2rem 1.5rem 2.6rem; color:var(--green-deep); font-size:0.85rem; opacity:0.75; }
+footer .contact{ margin-top:0.5rem; display:flex; justify-content:center; flex-wrap:wrap; gap:0.4rem 1.2rem; }
 
 @media (prefers-reduced-motion: reduce){ html{scroll-behavior:auto;} }
 
@@ -168,3 +169,12 @@ footer{ text-align:center; padding:2.2rem 1.5rem 2.6rem; color:var(--green-deep)
   box-shadow:0 8px 22px rgba(27,58,43,0.18);
 }
 .about-photo figcaption{ text-align:center; margin-top:0.7rem; font-family:'Dancing Script',cursive; font-size:1.3rem; color:var(--green-deep); }
+
+.log-photo{ margin:0.8rem 0 0.4rem; }
+.log-photo img{ display:block; width:100%; max-width:420px; height:auto; border-radius:8px; border:2px solid var(--gold-soft); }
+.log-photo figcaption{ font-family:'Dancing Script',cursive; font-size:1.15rem; color:var(--green-deep); margin-top:0.3rem; }
+.log-video{ margin-top:0.8rem; }
+.log-video .label{ display:block; font-size:0.82rem; font-weight:600; color:var(--green-deep); margin-bottom:0.3rem; }
+.log-video .hint{ font-weight:400; color:#8a8570; }
+.log-video video{ display:block; width:100%; max-width:420px; height:auto; border-radius:8px; background:#000; }
+.log-link{ display:inline-block; margin-top:0.6rem; font-size:0.85rem; color:var(--green); font-weight:500; }
