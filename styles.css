@@ -178,3 +178,12 @@ footer .contact{ margin-top:0.5rem; display:flex; justify-content:center; flex-w
 .log-video .hint{ font-weight:400; color:#8a8570; }
 .log-video video{ display:block; width:100%; max-width:420px; height:auto; border-radius:8px; background:#000; }
 .log-link{ display:inline-block; margin-top:0.6rem; font-size:0.85rem; color:var(--green); font-weight:500; }
+
+.song{ background:#fff; border-radius:8px; border-top:3px solid var(--gold); padding:1.3rem 1.2rem 1.4rem; margin-top:1.6rem; box-shadow:0 4px 14px rgba(27,58,43,0.08); }
+.song h3{ font-size:1.25rem; color:var(--green-deep); }
+.song .song-meta{ font-size:0.8rem; color:#8a8570; margin:0.2rem 0 1rem; }
+.song video{ display:block; width:100%; max-width:480px; height:auto; margin:0 auto 1.2rem; border-radius:8px; background:#000; }
+.song .lyrics p{ margin-bottom:1rem; font-size:0.98rem; line-height:1.75; }
+.song .lyrics .tag{ font-family:'Dancing Script',cursive; font-size:1.35rem; color:var(--green-deep); line-height:1.4; }
+.song .song-credit{ font-size:0.78rem; color:#8a8570; margin-top:0.4rem; }
+.song .song-credit a{ color:var(--green); }
