@@ -189,3 +189,4 @@ footer .contact{ margin-top:0.5rem; display:flex; justify-content:center; flex-w
 .song .song-credit a{ color:var(--green); }
 .btn-songs{ display:inline-block; background:var(--green-deep); color:#fff; text-decoration:none; font-weight:600; font-size:0.9rem; padding:0.6rem 1.1rem; border-radius:999px; }
 .btn-songs:hover, .btn-songs:focus-visible{ background:var(--green); }
+.log-video video[height="1464"], .song video[height="1464"]{ max-width:300px; }
